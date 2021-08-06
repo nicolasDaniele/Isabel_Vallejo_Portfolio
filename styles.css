@@ -7,9 +7,12 @@ body {
     line-height: 1.45;
 }
 
+/*-----------------*/
+/*-----HEADER-----*/
+/*---------------*/
 header {
     color: #FFFFFF;
-    background-color: #284b63;
+    background-color: #8C489F;
     padding: 80px;
     text-align: center;
 }
@@ -23,6 +26,7 @@ header {
 .header p {
     margin-left: 40px;
     display: inline-block;
+    text-align: right;
 }
 
 h1 {
@@ -57,49 +61,42 @@ h2 {
     background: #468486;
 }
 
+
+/*------------------*/
+/*-----SECTION-----*/
+/*----------------*/
+
 section {
-    text-align: center;
+    text-align: left;
     padding: 40px 0;
 }
 
 .features {
-    background: #FFFFFF;
+    background: #F1F0FF;
     color: #000000;
+    display: inline;
+
 }
 
 .feature img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    display: inline;
 }
 
-.quote {
-    background: #549DA0;
-    color: #FFFFFF;
-}
-
-blockquote {
-    margin: 0;
-    padding: 0;
+.feature p {
     text-align: center;
+    display: inline;
 }
 
-blockquote p {
-    margin: 0 0 5px 0;
-    font-size: 24px;
-}
 
-blockquote cite {
-    font-size: 16px;
-    font-style: italic;
-}
-
-blockquote cite:before {
-    content: '-';
-    margin-right: 5px;
-}
+/*-----------------*/
+/*-----FOOTER-----*/
+/*---------------*/
 
 footer {
-    background: #353535;
+    background: #443266;
     padding: 32px 0;
     text-align: center;
     color: #868686;
