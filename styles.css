@@ -12,21 +12,52 @@ body {
 /*---------------*/
 header {
     color: #FFFFFF;
-    background-color: #8C489F;
+    background-color: #C3C5E5;
     padding: 80px;
-    text-align: center;
+    padding-bottom: 20px;
+    /* text-align: center; */
 }
 
 .header img {
+    margin-left: 350px;
+    margin-right: 65px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 
-.header p {
-    margin-left: 40px;
+.presentation {
+    margin-left: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
     display: inline-block;
-    text-align: right;
+    text-align: left;
+}
+
+.contact {
+    padding: 0;
+    margin-top: 20px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+}
+
+.port-info {
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 555px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8C489F;
+    display: block;
+    text-align: left;
+}
+
+.slash {
+    color: white;
 }
 
 h1 {
@@ -69,25 +100,27 @@ h2 {
 section {
     text-align: left;
     padding: 40px 0;
+
 }
 
 .features {
-    background: #F1F0FF;
-    color: #000000;
-    display: inline;
-
+    background: white;
+    color: #696969;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 200px;
 }
 
 .feature img {
     width: 100px;
     height: 100px;
-    padding: 20px;
+    padding: 10px;
     display: inline;
 }
 
 .feature p {
-    text-align: center;
-    display: inline;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -97,10 +130,11 @@ section {
 
 footer {
     background: #443266;
-    padding: 32px 0;
+    padding: 32px;
+    padding-top: 10px;
     text-align: center;
-    color: #868686;
-    font-size: 12px;
+    color: white;
+    font-size: 20px;
 }
 
 footer ul {
