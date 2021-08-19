@@ -21,16 +21,15 @@ header {
 }
 
 .header img {
-    margin-left: 350px;
-    margin-right: 65px;
+    margin-left: 40%;
+    margin-right: 5%;
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 
+/*Presentacion*/
 .presentation {
-    margin-left: 10px;
-    padding-top: 30px;
     font-size: 20px;
     font-weight: 500;
     color: black;
@@ -38,6 +37,7 @@ header {
     text-align: left;
 }
 
+/*Contacto*/
 .contact {
     padding: 0;
     margin-top: 20px;
@@ -46,10 +46,11 @@ header {
     text-align: left;
 }
 
+/*Portafolio-Informacion*/
 .port-info {
     padding: 0px;
     margin-top: 40px;
-    margin-left: 555px;
+    margin-left: 60%;
     margin-bottom: 0;
     font-size: 20px;
     font-weight: bold;
@@ -63,28 +64,23 @@ header {
 }
 
 
+/*------------------*/
+/*-----SECTION-----*/
+/*----------------*/
+
 .container {
     margin: 0 auto;
     padding: 0 20px 0 20px;
     max-width: 900px;
 }
 
-
-/*------------------*/
-/*-----SECTION-----*/
-/*----------------*/
-
 section {
     text-align: left;
-    padding: 40px 0;
-
+    padding: 40px;
 }
 
 .features {
     background: white;
-    color: #696969;
-    font-weight: bold;
-    font-size: 20px;
     padding-bottom: 200px;
 }
 
@@ -96,8 +92,11 @@ section {
 }
 
 .feature p {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #696969;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -173,8 +172,15 @@ footer li a:hover {
         display: block;
     }
 
-    .container {
-        padding: 0 10px 0 10px;
-        /* max-width: 900px; */
+    /*SECTION*/
+    .feature p {
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    /*FOOTER*/
+    footer {
+        font-size: 10px;
+        font-weight: normal;
     }
 }
