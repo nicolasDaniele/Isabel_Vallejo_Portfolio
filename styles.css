@@ -99,6 +99,13 @@ section {
     font-size: 20px;
 }
 
+.titulo span {
+    color: #8C489F;
+}
+
+.contactos span {
+    color: #443266;
+}
 
 /*-----------------*/
 /*-----FOOTER-----*/
@@ -173,7 +180,7 @@ footer li a:hover {
     }
 
     /*SECTION*/
-    .feature p {
+    p {
         font-weight: normal;
         font-size: 10px;
     }
