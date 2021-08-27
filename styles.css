@@ -46,27 +46,37 @@ header {
     text-align: left;
 }
 
-/*Portafolio-Informacion*/
-.port-info {
-    padding: 0px;
-    margin-top: 40px;
-    margin-left: 60%;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: bold;
-    color: #8C489F;
-    display: block;
-    text-align: left;
-}
-
-.slash {
-    color: white;
-}
-
 
 /*------------------*/
 /*-----SECTION-----*/
 /*----------------*/
+
+section {
+    text-align: left;
+}
+
+a {
+    color: #52EB5B;
+}
+
+/*Portafolio-Informacion*/
+.port-info {
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.word {
+    padding: 10%;
+}
+
+.slash {
+    color: #443266;
+}
 
 .container {
     margin: 0 auto;
@@ -74,33 +84,22 @@ header {
     max-width: 900px;
 }
 
-section {
-    text-align: left;
-    padding: 40px;
-}
-
 .features {
     background: white;
     padding-bottom: 200px;
 }
 
-.feature img {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    display: inline;
-}
-
 .feature p {
+    margin-left: 30%;
     padding-top: 5%;
     padding-bottom: 5%;
-    color: #696969;
+    color: #A2A5A2;
     font-weight: bold;
     font-size: 20px;
 }
 
 .titulo span {
-    color: #8C489F;
+    color: #443266;
 }
 
 .contactos span {
@@ -181,6 +180,16 @@ footer li a:hover {
 
     /*SECTION*/
     p {
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    .word {
+        padding: 0;
+    }
+
+
+    .feature p {
         font-weight: normal;
         font-size: 10px;
     }
